@@ -6,8 +6,8 @@ function Projects({ className }) {
       id: 1,
       title: 'Portfolio Website',
       description: 'A responsive personal portfolio website built with React.',
-      tech: ['React', 'CSS', 'JavaScript'],
-      githubLink: 'https://github.com/yourusername/portfolio', // Replace with your GitHub link
+      tech: ['React', 'CSS', 'JavaScript', 'Node.js', 'HTML (JSX)'],
+      githubLink: 'https://github.com/Victor951-C/MY-PORTFOLIO', 
       type: 'github',
     },
     {
@@ -15,7 +15,7 @@ function Projects({ className }) {
       title: 'E-commerce Backend',
       description: 'A backend for an e-commerce platform using Node.js and Express.',
       tech: ['Node.js', 'Express', 'MongoDB'],
-      githubLink: 'https://github.com/yourusername/ecommerce-backend', // Replace with your GitHub link
+      githubLink: 'https://github.com/yourusername/ecommerce-backend', 
       type: 'github',
     },
     {
