@@ -243,6 +243,18 @@ footer {
   margin-bottom: 5px;
 }
 
+* Interactive Hover for Text Elements */
+section p,
+section li {
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+section p:hover,
+section li:hover {
+  color: var(--accent-color);
+  transform: translateX(5px);
+  cursor: pointer; /* Indicates interactivity */
+}
 /* Animations */
 @keyframes fadeInBottom {
   from {
