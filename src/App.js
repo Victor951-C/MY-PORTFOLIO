@@ -25,12 +25,12 @@ function App() {
           if (entry.isIntersecting) {
             entry.target.classList.add('is-visible');
           } else {
-            entry.target.classList.remove('is-visible'); // Optional: remove class when out of view
+            entry.target.classList.remove('is-visible'); 
           }
         });
       },
       {
-        threshold: 0.1, // Trigger when 10% of the section is visible
+        threshold: 0.1, 
       }
     );
 
