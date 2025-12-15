@@ -36,7 +36,6 @@ body {
   text-align: center;
 }
 
-/* Header Styles */
 header {
   background-color: var(--header-footer-bg);
   padding: 20px;
@@ -51,7 +50,6 @@ header h1 {
   background-clip: text;
 }
 
-/* Navigation Styles */
 nav {
   background-color: var(--nav-bg);
   padding: 10px 0;
@@ -70,7 +68,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white; /* Changed to white */
+  color: white; 
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.2s ease;
@@ -81,12 +79,9 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-/* Main Content Styles */
 main {
   padding: 20px;
-  min-height: 70vh; /* Ensures content takes up most of the viewport height */
-}
-
+  min-height: 70vh; 
 section {
   margin-bottom: 40px;
   padding: 20px;
@@ -105,7 +100,6 @@ footer {
   width: 100%;
 }
 
-/* Work Experience Styles */
 .experience-item {
   text-align: left;
   margin-bottom: 20px;
@@ -135,7 +129,6 @@ footer {
   margin-bottom: 5px;
 }
 
-/* Project Section Styles */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -200,7 +193,6 @@ footer {
   transform: translateY(-2px);
 }
 
-/* Skills, Education, Interests, Languages Styles */
 .skills-list,
 .interests-list,
 .languages-list {
@@ -253,9 +245,8 @@ section p:hover,
 section li:hover {
   color: var(--accent-color);
   transform: translateX(5px);
-  cursor: pointer; /* Indicates interactivity */
+  cursor: pointer; 
 }
-/* Animations */
 @keyframes fadeInBottom {
   from {
     opacity: 0;
@@ -278,7 +269,6 @@ section li:hover {
   transform: translateY(0);
 }
 
-/* Staggered Entrance Animations for List Items */
 .fade-in-section.is-visible .experience-item ul li,
 .fade-in-section.is-visible .skills-list li,
 .fade-in-section.is-visible .education-item h3,
@@ -301,7 +291,7 @@ section li:hover {
 .fade-in-section.is-visible .experience-item ul li:nth-child(8) { animation-delay: 0.8s; }
 .fade-in-section.is-visible .experience-item ul li:nth-child(9) { animation-delay: 0.9s; }
 .fade-in-section.is-visible .experience-item ul li:nth-child(10) { animation-delay: 1.0s; }
-/* ... add more for longer lists if needed ... */
+
 
 .fade-in-section.is-visible .skills-list li:nth-child(1) { animation-delay: 0.1s; }
 .fade-in-section.is-visible .skills-list li:nth-child(2) { animation-delay: 0.2s; }
@@ -313,7 +303,7 @@ section li:hover {
 .fade-in-section.is-visible .skills-list li:nth-child(8) { animation-delay: 0.8s; }
 .fade-in-section.is-visible .skills-list li:nth-child(9) { animation-delay: 0.9s; }
 .fade-in-section.is-visible .skills-list li:nth-child(10) { animation-delay: 1.0s; }
-/* ... and so on ... */
+
 
 .fade-in-section.is-visible .education-item h3 { animation-delay: 0.1s; }
 .fade-in-section.is-visible .education-item .education-institution { animation-delay: 0.2s; }
@@ -331,9 +321,9 @@ section li:hover {
 .fade-in-section.is-visible .languages-list li:nth-child(3) { animation-delay: 0.3s; }
 .fade-in-section.is-visible .languages-list li:nth-child(4) { animation-delay: 0.4s; }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
-  /* Navigation for smaller screens */
+ 
   nav ul {
     flex-direction: column;
   }
@@ -342,7 +332,7 @@ section li:hover {
     margin: 5px 0;
   }
 
-  /* Projects grid for smaller screens */
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
